@@ -13,3 +13,7 @@ In order to use this program:
   For example, "EXPORT TO "E:\**CustomerPath**\++LPAR\MQ115\Query_Results\++QMGR_BLOBUse.csv" OF DEL MODIFIED BY COLDEL, DECPT." _See the Generic_BlOBUSE.txt as an example.
 
 This program is most useful when you have to create a large amount of custom queries to run against your SMF data with many LPARs and QMs involved. 
+
+How to run the program: 
+If you have python installed and the GH repository downloaded on your workstation, in your CLI, run the command: python generic_updated8_2022.py 
+If that does not work, try python2 generic_updated8_2022.py and python3 generic_updated8_2022.py depending on your python version.
