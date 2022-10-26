@@ -6,7 +6,7 @@ from os.path import isfile, join
 #handle taking LPARs and QMs names from table, puts those values in a dictionary
 cpath = raw_input("Please enter customer name used for e drive path, for example, 'abcbank': ")
 
-f= open("lpar_list/Distinct_LPAR_QMGR.txt", "r")
+f= open("Distinct_LPAR_QMGR.txt", "r")
 file_list = f.readlines()
 formatted_fl = []
 for x in file_list[2:]:
