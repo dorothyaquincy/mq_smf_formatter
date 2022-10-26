@@ -4,7 +4,7 @@ The 'GENERIC' python program enables a user examining their own SMF data to cate
 
 For example, if you have 1 LPAR named PROD, and 2 queue managers on it, named QM1 and QM2, The GENERIC program would let you to create customized queries for running against your data and organize the queries into appropriately named directories on your workstation. Meaning, by running GENERIC, you would end up with 2 directories, PRODQM1 and PRODQM2, and in each of those directories, you will have customized SQL with correct variable names to run against your SMF data.
 
-##In order to use this program:
+## In order to use this program:
 1) Construct a directory on your workstation with all of the content of this github repo. 
 2) Generic SQL programs will need to be added to the directory with the first 7 characters being 'generic'. For example, generic_blob_use.txt. 
 3) All SQL queries must be in .txt format. 
@@ -14,7 +14,7 @@ For example, if you have 1 LPAR named PROD, and 2 queue managers on it, named QM
 
 This program is most useful when you have to create a large amount of custom queries to run against your SMF data with many LPARs and QMs involved. 
 
-##How to run the program: 
+## How to run the program: 
 
 If you have python installed and the GH repository downloaded on your workstation, in your CLI, run the command: python generic_updated8_2022.py 
 If that does not work, try python2 generic_updated8_2022.py and python3 generic_updated8_2022.py depending on your python version.
