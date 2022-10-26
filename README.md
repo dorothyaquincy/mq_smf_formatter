@@ -10,5 +10,4 @@ In order to use this program:
 3) All SQL queries must be in .txt format. 
 4) Modify Distinct_LPAR_QM.txt to have the names of your queue managers and LPARs.
 
-
-
+This program is most useful when you have to create a large amount of custom queries to run against your SMF data with many LPARs and QMs involved. 
