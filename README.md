@@ -10,6 +10,6 @@ In order to use this program:
 3) All SQL queries must be in .txt format. 
 4) Modify Distinct_LPAR_QM.txt to have the names of your queue managers and LPARs.
 5) The python program will recognize LPAR and QM variables in your SQL queries that have ++LPAR and ++QMGR as temporary variables in need of being customized by the program
-
+  For example, "EXPORT TO "E:\**CustomerPath**\++LPAR\MQ115\Query_Results\++QMGR_BLOBUse.csv" OF DEL MODIFIED BY COLDEL, DECPT." _See the Generic_BlOBUSE.txt as an example.
 
 This program is most useful when you have to create a large amount of custom queries to run against your SMF data with many LPARs and QMs involved. 
